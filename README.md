@@ -17,7 +17,7 @@ The files within the repository are:
 - process_data.py - Python script which prepares, cleans, tokenises the data and stores the results in the disaster response database.
 
 ### (Folder)Models
-- classifier.pkl - Data model prepared from the train_classifier.py below.
+- classifier.pkl - This has not been uploaded because the file is >100MB. This is the data model prepared from the train_classifier.py below.
 - train_classifier.py - Python script to use the prepared data, split, fit, train, tune and evaluate results and store as a pickle classifier for the web application.
 
 ### (Folder)App
