@@ -26,10 +26,7 @@ The files within the repository are:
 
 ## How to Run the Project
 
-1) Firstly run the following script in the project data directory: `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
-2) Secondly run the following script in the model directory: `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
-3) Initialise the web application by running the following in the app directory: `python run.py`
+1) Firstly run the following script in the main project directory: `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+2) Secondly run the following script in the main project directory: `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+3) Initialise the web application by running the following in the project app directory: `python run.py`
 4) Open http://0.0.0.0:3001/
-
-## Overview of Application
-
