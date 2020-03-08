@@ -47,7 +47,7 @@ def index():
     genre_names = list(genre_counts.index)
 
     
-    #Drop first four columns and calculate the mean.
+    #Drop first four columns, calculate the sum and arrange from highest occurance to last.
     categories = df.drop(['id','message','original','genre'], axis=1).sum().sort_values(ascending=False)
     #List column names
     category_names = list(categories.index)
