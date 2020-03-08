@@ -3,7 +3,7 @@
 ## Summary of the Project
 
 This project is a web application which classifies messages during a disaster to support a disaster relief agency. It demonstrates data engineering skills alongside data preparation and machine learning modelling to build a working application. The web application has two functions, 
-- a) Message Classification - input field for a message which will showcase the performance of the machine learning model. This classifiaction will then display the message categories.
+- a) Message Classification - Input field for a message which will showcase the performance of the machine learning model. This classifiaction will then display the message categories.
 - b) Summary Charts - Below the classification there are two charts which shows both an overview of the genres within the dataset and also the categories.
 
 ## Files in the Repository
